@@ -1,0 +1,14 @@
+.buy{
+    transform: scaleY(0);
+    transform-origin: top;
+    animation: appear 0.5s forwards 0.1s 1;
+}
+@keyframes appear {
+    from{
+        transform: scaleY(0);
+    }
+    to{
+        transform: scaleY(1);
+    }
+    
+}

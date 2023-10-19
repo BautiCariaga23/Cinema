@@ -1,0 +1,19 @@
+
+.slider{
+    overflow: hidden;
+}
+.slideimgs{
+    position: relative;
+    display: flex;
+    animation: carousel 60s 0s infinite linear;
+}
+.slideimgs img{
+    object-fit: cover;
+}
+@keyframes carousel {
+    0%{
+        left: 0%;
+    }99%{
+        left: -395%;
+    }
+}

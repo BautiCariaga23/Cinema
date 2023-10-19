@@ -1,0 +1,25 @@
+*{
+    perspective: 1000px;
+}
+.cardcont:hover ~ .card{
+    rotate: x 35deg;
+    opacity: 0.3;
+}
+.cardcont:hover{
+    cursor: pointer;
+}
+.pngimg{
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+    filter: drop-shadow(0px 0px 5px black);
+    float: left;
+    width: 200px;
+    height: 300px;
+    left: -50px;
+    object-fit: contain;
+}
+.cardcont:hover ~ .pngimg{
+    opacity: 1;
+    transition: 0.3s;
+}
